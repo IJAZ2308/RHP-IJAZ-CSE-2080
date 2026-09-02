@@ -1,0 +1,15 @@
+https://leetcode.com/problems/3sum/submissions/2077834787=3sum
+https://atcoder.jp/contests/abc408/submissions/77760967=C not covered
+https://leetcode.com/problems/binary-search/submissions/2078003054=binarysearch
+https://atcoder.jp/contests/abc444/submissions/77763896=manyrep unit
+https://codeforces.com/problemset/status?my=on=two digits
+https://codeforces.com/problemset/status?my=on-nikita and books
+https://atcoder.jp/contests/abc371/submissions/77781587-I hate sigma problems
+https://atcoder.jp/contests/abc371/submissions/77780227-Id country
+https://leetcode.com/problems/making-a-large-island/-making a large island
+https://atcoder.jp/contests/abc463/submissions/me=Takashi tallest moment
+https://leetcode.com/problems/last-day-where-you-can-still-cross/submissions/2080412023->Last day to cross
+https://leetcode.com/problems/number-of-provinces/submissions/2080516884->Number of provisions
+https://atcoder.jp/contests/abc350/submissions/77798835->New friends
+https://leetcode.com/problems/rotate-function/submissions/2093385016/=Rotate sum
+https://leetcode.com/problems/min-stack/submissions/2094757978/

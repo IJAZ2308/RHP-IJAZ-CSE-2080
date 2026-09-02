@@ -1,44 +1,36 @@
 import java.util.*;
 
-public class Sushi {
+public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        int N = sc.nextInt();
-        int M = sc.nextInt();
+        int n = sc.nextInt();
+        int m = sc.nextInt();
 
-        long[] A = new long[N];
-        long[] B = new long[M];
+        long[] a = new long[n];
+        long[] b = new long[m];
 
-        for (int i = 0; i < N; i++) {
-            A[i] = sc.nextLong();
+        for (int i = 0; i < n; i++) {
+            a[i] = sc.nextLong();
         }
 
-        for (int i = 0; i < M; i++) {
-            B[i] = sc.nextLong();
+        for (int i = 0; i < m; i++) {
+            b[i] = sc.nextLong();
         }
 
-        Arrays.sort(A);
-        Arrays.sort(B);
+        Arrays.sort(a);
+        Arrays.sort(b);
 
-        int i = 0;
         int j = 0;
-        int ans = 0;
+        int count = 0;
 
-        while (i < N && j < M) {
-            if (B[j] <= 2 * A[i]) {
-                // Make sushi
-                ans++;
-                i++;
+        for (int i = 0; i < n && j < m; i++) {
+            if (b[j] <= 2 * a[i]) {
+                count++;
                 j++;
-            } else {
-                // Shari is too small
-                i++;
             }
         }
 
-        System.out.println(ans);
-
-        sc.close();
+        System.out.println(count);
     }
 }
